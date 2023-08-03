@@ -2,7 +2,7 @@
 
 ## Description
 
-https://jssmith73.github.io/Josiah-Smith-s-Portfolio-Project/
+https://jssmith73.github.io/Josiah-Smith-Portfolio-Project/
 
 This repo acts as an ongoing portfolio project to reflect my previous work to potential employers.
 
@@ -20,7 +20,7 @@ While making this repo I experimented and learned a lot with CSS postioning and 
 
 ## Usage
 
-![JS PORTFOLIO](C:\Users\jman1\bootcamp\Josiah-Smith-s-Portfolio-Project\assets\images\JS PORTFOLIO SS.png)
+![JS PORTFOLIO](assets/images/JS%20PORTFOLIO%20SS.png)
 
 ## Credits
 
