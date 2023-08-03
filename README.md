@@ -1,4 +1,4 @@
-# Josiah Smith Portfolio Project
+# Josiah Smith Portfolio
 
 ## Description
 
