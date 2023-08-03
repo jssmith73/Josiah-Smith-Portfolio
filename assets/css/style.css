@@ -4,6 +4,9 @@
     --br: 25px;
     --I-like-mustard: rgb(212, 212, 43);
     --big-color: rgb(197, 205, 212);
+    --mbbc: orange;
+    --tbc: yellow;
+    --fsbc: navy;
 }
 
 * {
@@ -57,14 +60,14 @@ body {
 
 .headline {
     background-color: lightblue;
-    border: solid 3px navy;
+    border: solid 3px var(--fsbc)
 }
 /*Took position out of relative*/
 
 .headline h2 {
     padding: 10px;
     margin: 10px;
-    color: navy;
+    color: var(--fsbc)
 }
 
 .headline a {
@@ -220,7 +223,7 @@ content: "  👀"
 
     .headline {
         display: flex;
-        background-color: yellow;
+        background-color: var(--tbc);
         flex-direction: column;
         padding: 25px;
     }
@@ -275,8 +278,8 @@ content: "  👀"
 @media screen and (max-width: 786px) {
 
     header {
-        background-color: orange;
-        color: navy;
+        background-color: var(--mbbc);
+        color: var(--tbc);
         display: flex;
         position: relative;
         width: 100%;
@@ -300,7 +303,7 @@ content: "  👀"
         }
 
         .headline {
-            background-color: orange;
+            background-color: var(--mbbc);
         }
 
     #profile-intro {
@@ -325,7 +328,7 @@ content: "  👀"
     }
 
     footer {
-        background-color: orange;
-        color: navy;
+        background-color: var(--mbbc);
+        color: var(--fsbc);
     }
 }
