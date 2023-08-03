@@ -9,6 +9,9 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
+![JS PORTFOLIO SS](https://github.com/jssmith73/Josiah-Smith-s-Portfolio-Project/assets/135924397/8efcc0ba-aa15-4af8-8ddf-ba66f113207c)
+
+
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
