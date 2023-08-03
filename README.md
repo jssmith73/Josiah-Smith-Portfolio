@@ -2,7 +2,7 @@
 
 ## Description
 
-https://jssmith73.github.io/Josiah-Smith-Portfolio-Project/
+https://jssmith73.github.io/Josiah-Smith-Portfolio/
 
 This repo acts as an ongoing portfolio project to reflect my previous work to potential employers.
 
