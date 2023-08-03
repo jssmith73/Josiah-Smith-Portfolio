@@ -160,6 +160,8 @@ align-items: center;
 margin-bottom: 40px;
 }
 
+/* Email, Phone, and Github boxes */
+
 #contact-me p {
     padding: 10px;
     margin: 20px;
@@ -217,11 +219,15 @@ content: "  👀"
         margin-top: 25px;
     }
 
+    /* Profile photo */
+
     .profile {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
+    /*About Me, Work, Contact Me sections*/
 
     .headline {
         display: flex;
@@ -250,9 +256,13 @@ content: "  👀"
         padding: 15px;
     }
 
+    /*About me paragraph*/
+
     #story {
         size: small;
     }
+
+    /*Application links/images*/
 
     #work img {
         width: 200px;
@@ -265,6 +275,8 @@ content: "  👀"
         position: relative;
         right: 5%;
     }
+
+    /*Application text boxes*/
 
     #work h4 {
         width: 50%;
