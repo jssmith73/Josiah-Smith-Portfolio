@@ -39,17 +39,17 @@ header a {
 }
 
 #profile-intro {
-    text-align: center;
+    width: 25%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 25px;
     font-size: 25px;
-    width: 100%;
 }
 
-div img {
+.profile {
     width: 150px;
-   height: auto;
-   border-radius: 150px;
-   margin-left: 25%;
-   margin-top: 25px;
+    border-radius: 150px;
+    
 }
 
 body {
@@ -213,6 +213,8 @@ content: "  👀"
 
     #profile-intro {
         width: 100%;
+        margin: auto;
+        margin-top: 25px;
     }
 
     .profile {
@@ -306,9 +308,10 @@ content: "  👀"
             background-color: var(--mbbc);
         }
 
-    #profile-intro {
-        width: 100%;
-    }
+        #profile-intro {
+            margin-top: 25px;
+            width: 100%;
+        }
 
     .profile {
         display: block;
