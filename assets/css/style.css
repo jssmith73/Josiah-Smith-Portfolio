@@ -1,0 +1,331 @@
+:root {
+    --bc: rgb(80, 114, 225);
+    --tc: #ffffff;
+    --br: 25px;
+    --I-like-mustard: rgb(212, 212, 43);
+    --big-color: rgb(197, 205, 212);
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, footer {
+    background-color: var(--bc);
+    color: var(--I-like-mustard);
+    border: solid 3px black;
+}
+
+header h1 {
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+header nav {
+    padding: 15px;
+    font-size: 25px;
+    float: right;
+}
+
+header a {
+    position: relative;
+    bottom: 75px;
+    color: var(--I-like-mustard);
+    font-weight: bold;
+}
+
+#profile-intro {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+
+div img {
+    width: 150px;
+   height: auto;
+   border-radius: 150px;
+   margin-left: 25%;
+   margin-top: 25px;
+}
+
+body {
+    background-color: var(--big-color);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headline {
+    background-color: lightblue;
+    border: solid 3px navy;
+}
+/*Took position out of relative*/
+
+.headline h2 {
+    padding: 10px;
+    margin: 10px;
+    color: navy;
+}
+
+.headline a {
+    position: relative;
+}
+
+/*"Work" image text boxes*/
+
+.headline h4 {
+    height: 15px;
+    width: 50%;
+    position: absolute;
+    left: 24%;
+    top: 85%;
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#about-me {
+    font-size: 25px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*BIG "About Me, Work, Contact Me*/
+
+h2 {
+    margin-right: 200px;
+    border-right: solid 5px;
+    justify-content: center;
+}
+
+/*About Me paragraph*/
+
+#story {
+    background-color: var(--big-color);
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    text-align: center;
+}
+
+#work {
+    font-size: 25px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#work a {
+    position: relative;
+    left: 15px;
+    display: flex;
+}
+
+/*Horiseon image with link*/
+
+#work img {
+    width: 400px;
+    height: auto;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: .5;
+}
+
+/*JS WOODWORKS image with link*/
+
+#work #JSW {
+    position: relative;
+    bottom: 15px;
+    width: 600px;
+    height: auto;
+}
+
+#work img:hover {
+    opacity: 1;
+}
+
+#contact-me {
+display: inline-block;
+font-size: 25px;
+display: flex;
+align-items: center;
+margin-bottom: 40px;
+}
+
+#contact-me p {
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border: solid;
+}
+
+#contact-me p:focus {
+    background-color: gainsboro;
+}
+
+footer {
+text-align: center;
+color: var(--I-like-mustard);
+font-size: large;
+}
+
+footer h4::after {
+content: "  👀"
+}
+
+/* Tablet Version */
+
+@media screen and (max-width: 980px) {
+
+    header {
+        background-color: var(--bc);
+        color: var(--I-like-mustard);
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header nav {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+            }
+
+    header nav a {
+        flex-direction: column;
+        font-size: 15px;
+        color: var(--I-like-mustard);
+        position: relative;
+        bottom: 10px;
+        }
+
+    #profile-intro {
+        width: 100%;
+    }
+
+    .profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .headline {
+        display: flex;
+        background-color: yellow;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .headline h2 {
+        border: solid 5px;
+        margin-bottom: 20px;
+    }
+
+    /*"WORK" image text boxes*/
+
+    .headline h4 {
+        height: 15px;
+        width: 50%;
+        position: absolute;
+        left: 20%;
+        top: 80%;
+        text-align: center;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+    }
+
+    #story {
+        size: small;
+    }
+
+    #work img {
+        width: 200px;
+        position: relative;
+        right: 5%;
+    }
+
+    #work #JSW {
+        width: 250px;
+        position: relative;
+        right: 5%;
+    }
+
+    #work h4 {
+        width: 50%;
+        height: 10px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+}
+
+/* Mobile Version */
+
+@media screen and (max-width: 786px) {
+
+    header {
+        background-color: orange;
+        color: navy;
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header nav {
+        position: absolute;
+        right: 10px;
+            }
+
+    header nav a {
+        flex-direction: column;
+        font-size: 15px;
+        color: navy;
+        position: relative;
+        bottom: 10px;
+        }
+
+        .headline {
+            background-color: orange;
+        }
+
+    #profile-intro {
+        width: 100%;
+    }
+
+    .profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .headline h2 {
+        margin-bottom: 15px;
+        }
+
+    #story {
+        width: 90%;
+        font-size: 20px;
+        padding: 25px;
+        margin-top: 20px;
+    }
+
+    footer {
+        background-color: orange;
+        color: navy;
+    }
+}
