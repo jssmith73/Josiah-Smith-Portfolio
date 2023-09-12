@@ -60,7 +60,8 @@ body {
 
 .headline {
     background-color: lightblue;
-    border: solid 3px var(--fsbc)
+    border: solid 3px var(--fsbc);
+    overflow: auto;
 }
 /*Took position out of relative*/
 
